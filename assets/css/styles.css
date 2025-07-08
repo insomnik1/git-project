@@ -7,7 +7,6 @@ body {
     img {
         max-width: 400px;
         height: 300px;
-
     }
 }
 
@@ -30,6 +29,7 @@ header {
         display: flex;
         width: 100%;
         justify-content: space-around;
+        align-items: flex-end;
     }
 }
 
@@ -52,14 +52,17 @@ header {
 }
 
 .logo {
-    width: 100px;
+    width: 50px;
     height: auto;
+    margin: 10px 0 0 10px;
+    border-radius: 50px;
 }
 
 #recettes {
 
     display: flex;
     flex-direction: column;
+    padding: 20px 100px;
 
     .basilou {
         display: flex;
@@ -86,6 +89,10 @@ header {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        padding: 20px 0;
+         margin: 10px auto;
+         width: 80%;
+
 
         a {
             display: flex;
@@ -106,6 +113,9 @@ header {
         width: 250px;
         text-align: center;
         padding: 10px 0;
+    }
+    div {
+        padding: 20px 0;
     }
 
 }
@@ -132,12 +142,93 @@ footer {
         justify-content: space-around;
     }
 }
+
 li {
     list-style: none;
 
-a {
-    text-decoration: none;
+    a {
+        text-decoration: none;
+        color: white;
+
+
+    }
+}
+
+/*pages basilic*/
+
+.recipies {
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-align: center;
+    align-items: center;
+    margin: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+        background-color: darkorchid;
+    border-radius: 50px;
     color: white;
 
+
+    li {
+        width: 500px;
+        padding: 5px 0;
+    }
 }
+
+.prepa {
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: 2px solid rgb(92, 11, 84);
+    border-radius: 50px;
+    margin: 50px;
+
+    li {
+        width: 500px;
+        padding: 5px 0;
+    }
+}
+
+.container-carbo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container-carbo h3 {
+    background-color: rgb(92, 11, 84);
+    width: 250px;
+    margin: 10px auto;
+    padding: 10px 0;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.container-carbo article:nth-child(3) {
+    width: 100%;
+    border: 2px solid #b917ff;
+    margin: 10px 0;
+    background: #b917ff;
+    border-radius: 50px;
+    color: #ffff;
+}
+
+.container-carbo article:last-child {
+    width: 100%;
+    border: 2px solid #b917ff;
+    margin: 10px 0;
+    border-radius: 50px;
+}
+
+.container-carbo article ul {
+    padding: 0 20px;
 }
